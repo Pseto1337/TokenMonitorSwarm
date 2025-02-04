@@ -4,25 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8308210e-62e1-453c-bf52-2e5084839a2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TokenMonitorSwarm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/analysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/analysis/data_processing_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/base/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/base/agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/collection/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/collection/cielo_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/collection/websocket_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/logging_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/message_bus.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="8308210e-62e1-453c-bf52-2e5084839a2f" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/agents/analysis/DataNormalizationAgent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/analysis/time_series_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/analysis/volume_pattern_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/patterns/TradingVolumeAgent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/patterns/WalletBehaviorAgent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/processing/validation_agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/validation/TypeValidationAgent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/validation/ValueRangeAgent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agents/validation/data_integrity_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents/collection/websocket_agent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +77,15 @@
       <option name="presentableId" value="Default" />
       <updated>1738698745873</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <option name="closed" value="true" />
+      <created>1738704623683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738704623683</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,5 +98,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
